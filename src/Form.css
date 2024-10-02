@@ -1,0 +1,121 @@
+.submit{
+    height: 100vh;
+    width: 100%;
+    /* background-color: pink;display: flex; */
+    background-image: url(./img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.box{
+    width: 100%;
+    height: 80% ;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+      align-items: center; 
+    text-align: center;
+     /* gap: 30px;  */
+     margin-top: 20px;
+     padding-top: 10px;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+     margin: 15px; 
+     /* justify-content: center; */
+   align-items: center;
+    /* gap: 30px; */
+}
+
+.name{
+    width: 50%;
+    font-size: 20px;
+    padding: 15px;
+}
+.dept{
+    width: 50%;
+    font-size: 20px;
+    padding: 15px;
+}
+.num{
+    width: 50%;
+    font-size: 20px;
+    padding: 15px;
+}
+.button{
+    width: 50%;
+    padding: 20px;
+}
+input{
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(211, 211, 211, 0.719);
+    color: black;
+}
+
+.but{
+    width: 40%;
+    background-color:  rgb(60, 221, 60) ;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+ul{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    width: 90%;
+    height: auto;
+    border: 2px solid navy;
+    padding: 10px 15px;
+    gap: 10px;
+}
+ 
+li{
+    width: 40%;
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.childbut{
+    background-color: rgb(60, 221, 60);
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;                
+}
